@@ -1,6 +1,6 @@
 import React from 'react'
 import './aboutus.css';
-import {Experience, About} from './components'
+import {Experience, About} from '../../components'
 const AboutUs = () => {
   return (
     <div>

@@ -1,0 +1,61 @@
+.tanners__navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tanners__navbar-links_logo img{
+width: 51px;
+height: 51px;
+margin: 20px 10px;
+}
+.tanners__navbar-links_container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 35px 0 0 150px;
+    
+}
+.tanners__navbar-links_container li{
+    margin: 5px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.14em;
+     color: var(--color-white-text);
+}
+
+.tanners__navbar-sign{
+    margin: 30px 0px 0 30px;
+}
+.tanners__navbar-login{
+cursor: pointer;
+border: 2px solid #ff4d00;
+border-radius: 20px;
+padding: 0.5rem 2rem;
+background: none;
+color: var(--color-white-text);
+margin: 5px;
+font-family: 'Poppins',
+sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.14em;
+
+}
+.tanners__navbar-signup{
+cursor: pointer;
+border: 2px solid #ff4d00;
+border-radius: 20px;
+padding: 0.5rem 2rem;
+background: var(--color-subtext);
+color: var(--color-white-text);
+margin: 5px;
+font-family: 'Poppins',
+sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.14em;
+}

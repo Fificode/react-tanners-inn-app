@@ -1,0 +1,36 @@
+.tanners__experience-images_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.tanners__experience-image_container-one{
+    width: 209px;
+    height: 235px;
+  border-radius: 25px;
+   /* margin: 10px 15px; */
+   background: url(../../images/food.png);
+}
+.tanners__experience-image_container-two{
+    width: 209px;
+    height: 235px;
+  border-radius: 25px;
+   margin: 10px 15px;
+   background: url(../../images/yoga.jpg);
+}
+.tanners__experience-image_container-three{
+    width: 209px;
+    height: 235px;
+  border-radius: 25px;
+   margin: 10px 15px;
+   background: url(../../images/room__service.jpg);
+}
+.tanners__experience-dark_background{
+    width: 209px;
+    height: 235px;
+    border-radius: 25px;
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 24.48%, #000000 100%);
+    filter: drop-shadow(0px 15px 25px rgba(164, 164, 164, 0.35));
+}

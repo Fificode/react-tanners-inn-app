@@ -11,7 +11,6 @@
     background: rgba(255, 77, 0, 0.45);
     backdrop-filter: blur(50px);
     border-radius: 50px;
-   z-index: 10;
 }
 .tanners__aboutus-experience_container h3{
     font-family: 'Roboto';
@@ -22,4 +21,28 @@
     letter-spacing: 0.11em;
     color: var(--color-white-text);
     margin: 1rem 0;
+}
+@media screen and (max-width: 1050px) {
+.tanners__aboutus-experience_container {
+    width: 814px;
+    
+}
+}
+@media screen and (max-width: 850px){
+    .tanners__aboutus-experience_container {
+        width: 600px;
+     }
+
+}
+@media screen and (max-width: 450px){
+.tanners__aboutus-experience_container {
+    width: 325px;
+    margin-top: 30px;
+}
+}
+@media screen and (max-width: 390px){
+.tanners__aboutus-experience_container {
+    width: 290px;
+    margin-top: 50px;
+}
 }

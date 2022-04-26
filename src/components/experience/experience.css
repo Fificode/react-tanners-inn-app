@@ -1,3 +1,8 @@
+.tanners__experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .tanners__experience-images_container{
     display: flex;
     flex-direction: row;
@@ -5,32 +10,55 @@
     flex-wrap: wrap;
    
 }
+.tanners__experience-overall_container{
+   width: 209px;
+    height: 270px;
+     margin: 25px 30px;
+}
 
-.tanners__experience-image_container-one{
-    width: 209px;
-    height: 235px;
+.tanners__experience-image_container-one{ 
+  background: url(../../images/food.jpg) no-repeat;
+  background-size: 100% 100%;
   border-radius: 25px;
-   /* margin: 10px 15px; */
-   background: url(../../images/food.png);
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .tanners__experience-image_container-two{
-    width: 209px;
-    height: 235px;
+   background: url(../../images/yoga.jpg) no-repeat;
+  background-size: 100% 100%;
   border-radius: 25px;
-   margin: 10px 15px;
-   background: url(../../images/yoga.jpg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
 }
 .tanners__experience-image_container-three{
-    width: 209px;
-    height: 235px;
+     background: url(../../images/room__service.jpg) no-repeat;
+    background-size: 100% 100%;
   border-radius: 25px;
-   margin: 10px 15px;
-   background: url(../../images/room__service.jpg);
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .tanners__experience-dark_background{
-    width: 209px;
+    width: 100%;
     height: 235px;
     border-radius: 25px;
-     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 24.48%, #000000 100%);
-    filter: drop-shadow(0px 15px 25px rgba(164, 164, 164, 0.35));
+    background: rgba(0, 0, 0, 0.4);
+}
+.tanners__experience-content{
+  display: flex;
+  
+ 
+}
+
+.tanners__experience-content span{
+  color: var(--color-white-text);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.02em;
 }

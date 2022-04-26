@@ -1,9 +1,9 @@
-.tanners__experience{
+.tanners__aboutus-experience{
     display: flex;
     justify-content: center;
     align-items: center; 
 }
-.tanners__experience-container{
+.tanners__aboutus-experience_container{
     width: 914px;
     height: 232px;
     position: absolute;
@@ -13,7 +13,7 @@
     border-radius: 50px;
    z-index: 10;
 }
-.tanners__experience-container h3{
+.tanners__aboutus-experience_container h3{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 32px;

@@ -4,8 +4,8 @@ import {Experience, About} from '../../components'
 const AboutUs = () => {
   return (
     <div className='tanners__aboutus'>
-      <div className="tanners__experience">
-      <div className="tanners__experience-container">
+      <div className="tanners__aboutus-experience">
+      <div className="tanners__aboutus-experience_container">
         <h3>EXPERIENCE</h3>
       <Experience />
       </div>

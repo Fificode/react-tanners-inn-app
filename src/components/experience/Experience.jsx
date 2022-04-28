@@ -4,7 +4,7 @@ import './experience.css';
 
 const Experience = () => {
   let slideIndex = 0;
-showSlides();
+
 
 function showSlides() {
   let i;
@@ -21,7 +21,9 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); 
+  
 }
+showSlides();
   return (
     <>
     <div className="tanners__experience">
@@ -87,6 +89,7 @@ function showSlides() {
   <span class="tanners__experience-carousel_dot"></span> 
   <span class="tanners__experience-carousel_dot"></span> 
 </div>
+
     </>
   )
 }

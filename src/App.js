@@ -11,9 +11,11 @@ function App() {
   <Header />
   </div>
   </div>
+  <div className='tanners__light-background'>
   <AboutUs />
   <Rooms />
   <Footer />
+  </div>
     </div>
   );
 }

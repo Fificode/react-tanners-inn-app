@@ -1,0 +1,56 @@
+.tanners__about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+.tanners__about-heading h1{
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--color-subtext);
+}
+.tanners__about-heading h2{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-dark-text);
+}
+.tanners__about-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+   
+}
+.tanners__about-section{
+    display: flex;
+    flex-direction: column;
+     margin: 0 100px;
+}
+.tanners__about-section h3{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-dark-text);
+}
+.tanners__about-section h3 span{
+    color: var(--color-subtext);
+}
+.tanners__about-section p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1A1A1A;
+}

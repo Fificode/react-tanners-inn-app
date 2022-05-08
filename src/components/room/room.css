@@ -1,0 +1,10 @@
+.tanners__room-image_content img{
+position: relative; 
+width: 400px;
+    height: 284px;
+}
+.tanners__room-image-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

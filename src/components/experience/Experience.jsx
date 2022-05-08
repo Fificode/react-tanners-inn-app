@@ -1,12 +1,11 @@
-import React from 'react'
+import React, {useLayoutEffect} from 'react'
 import './experience.css';
 
 
 const Experience = () => {
-  let slideIndex = 0;
-
-
+  useLayoutEffect(() => {
 function showSlides() {
+  let slideIndex = 0;
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("tanners__experience-carousel_dot");
@@ -18,12 +17,16 @@ function showSlides() {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
+
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); 
   
 }
+
 showSlides();
+}, [])
+  
   return (
     <>
     <div className="tanners__experience">

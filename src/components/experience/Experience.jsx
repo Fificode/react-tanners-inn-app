@@ -1,8 +1,9 @@
 import React, {useLayoutEffect} from 'react'
 import './experience.css';
 
-
+ 
 const Experience = () => {
+ 
   useLayoutEffect(() => {
 function showSlides() {
   let slideIndex = 0;
@@ -88,9 +89,9 @@ showSlides();
         </div> 
       </div>
       <div className="tanners__experience-carousel_dot-container">
-  <span class="tanners__experience-carousel_dot"></span> 
-  <span class="tanners__experience-carousel_dot"></span> 
-  <span class="tanners__experience-carousel_dot"></span> 
+  <span className="tanners__experience-carousel_dot"></span> 
+  <span className="tanners__experience-carousel_dot"></span> 
+  <span className="tanners__experience-carousel_dot"></span> 
 </div>
 
     </>

@@ -8,18 +8,48 @@
     list-style-type: disc;
     color: #000000;
 }
- li{
+ .tanners__rooms-heading ul li{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 32px;
     line-height: 37px;
     letter-spacing: 0.11em;
     color: #000000;
-    margin: 50px 30px;
+    margin: 50px 30px 50px 60px;
     padding-top: 30px;
 }
 .tanners__rooms-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.tanners__rooms-overall_container{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 1050px){
+    .tanners__rooms-container {
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+
+    }
+    .tanners__rooms {
+        height: 1800px;
+        
+    }
+}
+
+@media screen and (max-width: 450px){
+    .tanners__rooms-heading ul {
+        
+        list-style-type: none;
+        
+    }
+    .tanners__rooms-heading ul li {
+        text-align: center;
+        font-size: 25px;
+        line-height: 25px;
+       
+        }
 }

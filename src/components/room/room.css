@@ -116,4 +116,28 @@ height: 250px;
    
 
 }
+.tanners__room-description p {
+   
+    font-size: 15px;
+    line-height: 25px;
+   
+}
+
+.tanners__room-description h3 {
+    font-size: 20px;
+    line-height: 32px;
+
+}
+.tanners__room-numtype h1 {
+    
+    font-size: 19px;
+    line-height: 21px;
+   
+}
+
+.tanners__room-numtype h2 {
+    font-size: 15px;
+    line-height: 20px;
+    
+}
     }

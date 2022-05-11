@@ -79,3 +79,13 @@ align-items: center;
 }
 
 }
+@media screen and (max-width: 550px){
+    .tanners__about-heading h2 {
+       font-size: 40px;
+        line-height: 50px;
+           }
+    .tanners__about-section h3 {
+        font-size: 38px;
+        line-height: 50px;
+            }
+}

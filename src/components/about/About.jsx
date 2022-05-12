@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css';
 const About = () => {
   return (
-    <div className="tanners__about">
+    <div className="tanners__about" id='About'>
       <div>
       <div className='tanners__about-heading'>
       <h1>ABOUT</h1>

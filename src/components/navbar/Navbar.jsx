@@ -19,9 +19,7 @@ const Navbar = () => {
         <img src={logo} alt="Logo" />
       </div>
 <ul className="tanners__navbar-links_container">
-<li><a href="#home">Home</a></li>
-<li><a href="#rooms">Rooms</a></li>
-<li><a href="#About">About</a></li>
+<Menu />
 </ul>
 <div className="tanners__navbar-sign">
   <button className='tanners__navbar-login'>Log In</button>
@@ -29,8 +27,8 @@ const Navbar = () => {
 </div>
 <div className="tanners__navbar-menu">
 {toggleMenu? 
-<RiCloseLine color='#fff' size={27} onClick = {() => setToggleMenu(false)} />:
-<RiMenu3Line color='#fff' size={27} onClick = {() => setToggleMenu(true)} />
+<RiCloseLine className='tanners__navbar-menu_delete'  size={27} onClick = {() => setToggleMenu(false)} />:
+<RiMenu3Line className="tanners__navbar-menu_menuline" size={27} onClick = {() => setToggleMenu(true)} />
 }
 {
   toggleMenu && (

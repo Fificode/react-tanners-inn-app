@@ -6,7 +6,9 @@ import facebook from '../../images/fb-icon.png'
 import instagram from '../../images/ig-icon.png'
 const Footer = () => {
   return (
+    <>
     <div className="tanners__footer">
+      <div className="tanners__footer-container">
 <div className="tanners__footer-overall_container">
   <div className='tanners__footer-first_container'>
     <div className="tanners__footer-logo_container">
@@ -33,7 +35,14 @@ const Footer = () => {
     <div className='tanners__footer-socials'><img src={twitter} alt="Twitter logo" /><p><a href="#">Twitter</a></p></div>
   </div>
 </div>
-    </div>
+</div>
+<div className='tanners__footer-designer_developer' >
+  <p>Designed by</p>
+  <p>Developed by Firdaws Lamidi</p>
+</div>
+</div>
+
+    </>
   )
 }
 

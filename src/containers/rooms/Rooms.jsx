@@ -4,7 +4,7 @@ import {Room} from '../../components';
 import { room_one, room_two, room_three } from './import'
 const Rooms = () => {
   return (
-    <div className="tanners__rooms">
+    <div className="tanners__rooms" id='rooms'>
       <div className="tanners__rooms-heading">
         <ul>
           <li>POPULAR ROOMS</li>

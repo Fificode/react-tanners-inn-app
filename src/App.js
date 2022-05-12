@@ -5,7 +5,7 @@ import {Navbar} from './components';
 function App() {
   return (
     <div className='App'>
-      <div className="tanners__landing-image">
+      <div className="tanners__landing-image" id='home'>
         <div className="tanners__dark-background">
        <Navbar />
   <Header />

@@ -1,12 +1,12 @@
 import React, {useLayoutEffect} from 'react'
 import './experience.css';
 
- 
+ let slideIndex = 0;
 const Experience = () => {
  
   useLayoutEffect(() => {
+    
 function showSlides() {
-  let slideIndex = 0;
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("tanners__experience-carousel_dot");

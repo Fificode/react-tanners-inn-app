@@ -41,19 +41,27 @@
 }
 
 @media screen and (max-width: 450px){
+    .tanners__rooms {
+        height: 1770px;
+    
+    }
     .tanners__rooms-heading ul {
         padding-top: 5px;
-        list-style-type: none;
+        
         
     }
     .tanners__rooms-heading ul li {
-        text-align: center;
+        
         font-size: 25px;
         line-height: 25px;
        
         }
 }
 @media screen and (max-width: 350px){
+    .tanners__rooms {
+        height: 1650px;
+    
+    }
     .tanners__rooms-heading ul li {
         font-size: 21px;
         line-height: 22px;

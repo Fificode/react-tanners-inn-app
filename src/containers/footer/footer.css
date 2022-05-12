@@ -1,8 +1,10 @@
 .tanners__footer{
-    display: flex;
+   margin-top: 50px;
+    
+}
+.tanners__footer-container{
+     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    padding-bottom: 50px;
 }
 .tanners__footer-overall_container{
     display: flex;
@@ -65,4 +67,91 @@ justify-content: center;
     height: 16.73px;
     margin-right: 8px;
     margin-top: 3px;
+}
+.tanners__footer-designer_developer{
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.tanners__footer-designer_developer p{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: 600;
+color:#323232;
+margin: 5px;
+}
+
+@media screen and (max-width: 850px){
+.tanners__footer-first_container .tanners__footer-logo {
+    width: 62px;
+    height: 62px;
+}
+
+.tanners__footer-first_container h1 {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.tanners__footer-second_container h2,
+.tanners__footer-third_container h2,
+.tanners__footer-fourth_container h2 {
+    font-size: 18px;
+}
+
+.tanners__footer-second_container p,
+.tanners__footer-third_container p,
+.tanners__footer-fourth_container p {
+    font-size: 15px;
+
+}
+}
+@media screen and (max-width: 550px){
+    .tanners__footer-container {
+        display: flex;
+        justify-content: flex-start;
+       
+    }
+.tanners__footer-overall_container {
+    display: flex;
+    flex-direction: column;
+    
+}
+.tanners__footer-first_container,
+.tanners__footer-second_container,
+.tanners__footer-third_container,
+.tanners__footer-fourth_container {
+    margin: 10px 15px;
+}
+.tanners__footer-first_container .tanners__footer-logo_container {
+    display: flex;
+    justify-content: flex-start;
+}
+.tanners__footer-first_container .tanners__footer-logo {
+    width: 52px;
+    height: 52px;
+}
+.tanners__footer-first_container h1 {
+   font-size: 20px;
+    margin-left: -5px;
+    text-align: left;
+    
+}
+.tanners__footer-second_container h2,
+.tanners__footer-third_container h2,
+.tanners__footer-fourth_container h2 {
+   font-size: 17px;
+    }
+    .tanners__footer-second_container p,
+    .tanners__footer-third_container p,
+    .tanners__footer-fourth_container p {
+        font-size: 15px;
+       
+    }
+}
+@media screen and (max-width: 450px){
+.tanners__footer {
+    display: flex;
+    flex-direction: column;
+}
 }

@@ -16,7 +16,8 @@
 }
 
 .tanners__experience-image_container-one, .tanners__experience-carousel_image-container_one{ 
-  background: url(../../images/food.jpg) no-repeat;
+  background: url(../../images/food.jpg);
+background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 25px;
   display: flex;
@@ -24,7 +25,8 @@
   align-content: center;
 }
 .tanners__experience-image_container-two, .tanners__experience-carousel_image-container_two {
-   background: url(../../images/yoga.jpg) no-repeat;
+   background: url(../../images/yoga.jpg);
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 25px;
     display: flex;
@@ -33,7 +35,8 @@
   
 }
 .tanners__experience-image_container-three, .tanners__experience-carousel_image-container_three{
-     background: url(../../images/room__service.jpg) no-repeat;
+     background: url(../../images/room__service.jpg) ;
+     background-repeat: no-repeat;
     background-size: 100% 100%;
   border-radius: 25px;
   display: flex;

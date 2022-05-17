@@ -37,7 +37,7 @@ const Footer = () => {
 </div>
 </div>
 <div className='tanners__footer-designer_developer' >
-  <p>Designed by</p>
+  <p>Designed by DesignBro</p>
   <p>Developed by Firdaws Lamidi</p>
 </div>
 </div>

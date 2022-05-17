@@ -23,6 +23,12 @@ margin: 35px 10px 0 10px;
     letter-spacing: 0.14em;
      color: var(--color-white-text);
 }
+
+.tanners__navbar-links_container li a,
+.tanners__navbar-menu_container-links li a{
+    color: var(--color-white-text);
+}
+
 .tanners__navbar-links_container li a:hover,
 .tanners__navbar-menu_container-links li a:hover{
     color: #ff4d00;
@@ -117,5 +123,11 @@ letter-spacing: 0.14em;
              display: flex;
             flex-direction: column;
         }
+    }
+}
+@media screen and (max-width: 300px){
+    .tanners__navbar-signup,
+    .tanners__navbar-menu_signup {
+       padding: 0.5rem 1rem;
     }
 }

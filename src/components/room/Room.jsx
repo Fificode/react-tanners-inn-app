@@ -7,6 +7,7 @@ const Room = ({image,room_number,room_type,check_in_btn,room_description,room_pr
 <div className="tanners__room-image_container">
   <div className="tanners__room-image_content">
     <div style={{backgroundImage: `url(${image})`}} className="tanners__room-image">
+      <div className='tanners__room-dark_background'>
   <div className="tanners__room-image-text">
     <div className='tanners__room-numtype'>
       <h1>{room_number}</h1>
@@ -15,6 +16,7 @@ const Room = ({image,room_number,room_type,check_in_btn,room_description,room_pr
     <div className='tanners__room-button'>
       <button>{check_in_btn}</button>
     </div>
+  </div>
   </div>
   </div>
   </div>

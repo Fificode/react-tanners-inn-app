@@ -114,6 +114,14 @@ color: #000000;
         max-width: 340px;
         
     }
+    .tanners__room-numtype h1 {
+        margin: 0 0 5px 25px;
+       
+    }
+    
+    .tanners__room-numtype h2 {
+        margin: 0 0 17px 25px;
+    }
 }
    @media screen and (max-width: 450px){
     .tanners__room-image {
@@ -139,9 +147,10 @@ color: #000000;
         font-size: 20px;
         line-height: 32px;
     }
+
     
     .tanners__room-numtype h1 {
-    
+    margin: 0 0 5px 20px;
         font-size: 19px;
         line-height: 21px;
     
@@ -150,7 +159,7 @@ color: #000000;
     .tanners__room-numtype h2 {
         font-size: 15px;
         line-height: 20px;
-    
+     margin: 0 0 17px 20px;
     }
    }
 @media screen and (max-width: 350px){

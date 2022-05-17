@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+    z-index: 9;
 }
 .tanners__aboutus-experience_container{
     width: 914px;

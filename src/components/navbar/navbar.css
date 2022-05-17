@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    z-index: 10;
+    
 }
 .tanners__navbar-links_logo img{
 width: 51px;
@@ -17,7 +17,7 @@ margin: 35px 10px 0 10px;
 }
 .tanners__navbar-links_container li, .tanners__navbar-menu_container-links li{
     margin: 5px 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
@@ -46,8 +46,7 @@ padding: 0.5rem 2rem;
 background: none;
 color: var(--color-white-text);
 margin: 10px;
-font-family: 'Poppins',
-sans-serif;
+font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
@@ -63,8 +62,7 @@ padding: 0.5rem 2rem;
 background: var(--color-subtext);
 color: var(--color-white-text);
 margin: 10px;
-font-family: 'Poppins',
-sans-serif;
+font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;

@@ -17,22 +17,22 @@ const Footer = () => {
 <h1>Tanners's Inn</h1>
   </div>
   <div className='tanners__footer-second_container'>
-    <h2><a href='#'>My Account</a></h2>
-    <p><a href='#'>My Profile</a></p>
-    <p><a href='#'>Account Settings</a></p>
-    <p><a href='#'>Check-in History</a></p>
+    <h2><button>My Account</button></h2>
+    <p><button>My Profile</button></p>
+    <p><button>Account Settings</button></p>
+    <p><button>Check-in History</button></p>
   </div>
   <div className='tanners__footer-third_container'>
-    <h2><a href="#">Information</a></h2>
-    <p><a href="#">About Us</a></p>
-    <p><a href="#"></a>Privacy Policy</p>
-    <p><a href="#">Terms and Conditions</a></p>
+    <h2><button>Information</button></h2>
+    <p><button>About Us</button></p>
+    <p><button>Privacy Policy</button></p>
+    <p><button>Terms and Conditions</button></p>
   </div>
   <div className='tanners__footer-fourth_container'>
-    <h2><a href="#">Contact Us</a></h2>
-    <div className='tanners__footer-socials'><img src={facebook} alt="Facebook logo" /><p><a href="#">Facebook</a></p></div>
-    <div className='tanners__footer-socials'><img src={instagram} alt="Instagram logo" /><p><a href="#">Instagram</a></p></div>
-    <div className='tanners__footer-socials'><img src={twitter} alt="Twitter logo" /><p><a href="#">Twitter</a></p></div>
+    <h2><button>Contact Us</button></h2>
+    <div className='tanners__footer-socials'><img src={facebook} alt="Facebook logo" /><p><button>Facebook</button></p></div>
+    <div className='tanners__footer-socials'><img src={instagram} alt="Instagram logo" /><p><button>Instagram</button></p></div>
+    <div className='tanners__footer-socials'><img src={twitter} alt="Twitter logo" /><p><button>Twitter</button></p></div>
   </div>
 </div>
 </div>

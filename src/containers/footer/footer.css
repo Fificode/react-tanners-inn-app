@@ -32,7 +32,7 @@ justify-content: center;
     color: #323232;
     margin-top: 10px;
 }
-.tanners__footer-second_container h2, .tanners__footer-third_container h2, .tanners__footer-fourth_container h2{
+.tanners__footer-second_container h2 button, .tanners__footer-third_container h2 button, .tanners__footer-fourth_container h2 button{
     font-family:'Roboto',
     sans-serif ;
     font-weight: 700;
@@ -41,9 +41,9 @@ justify-content: center;
     letter-spacing: 0.02em;
     color: var(--color-subtext);
 }
-.tanners__footer-second_container p,
-.tanners__footer-third_container p,
-.tanners__footer-fourth_container p{
+.tanners__footer-second_container p button,
+.tanners__footer-third_container p button,
+.tanners__footer-fourth_container p button{
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 18px;
@@ -52,6 +52,16 @@ justify-content: center;
     color: #323232;
     
 }
+.tanners__footer-second_container p button,
+.tanners__footer-third_container p button,
+.tanners__footer-fourth_container p button,.tanners__footer-second_container h2 button,
+.tanners__footer-third_container h2 button,
+.tanners__footer-fourth_container h2 button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
 .tanners__footer-second_container p,
 .tanners__footer-third_container p{
     margin: 10px 0;

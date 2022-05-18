@@ -53,6 +53,10 @@ justify-content: center;
     
 }
 .tanners__footer-second_container p button,
+.tanners__footer-third_container p button {
+    text-align: left;
+}
+.tanners__footer-second_container p button,
 .tanners__footer-third_container p button,
 .tanners__footer-fourth_container p button,.tanners__footer-second_container h2 button,
 .tanners__footer-third_container h2 button,
@@ -107,6 +111,7 @@ margin: 5px;
 .tanners__footer-third_container h2 button,
 .tanners__footer-fourth_container h2 button {
     font-size: 18px;
+    
 }
 
 .tanners__footer-second_container p button,
@@ -115,6 +120,7 @@ margin: 5px;
     font-size: 15px;
 
 }
+
 }
 @media screen and (max-width: 550px){
     .tanners__footer-container {

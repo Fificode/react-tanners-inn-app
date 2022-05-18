@@ -98,7 +98,7 @@ letter-spacing: 0.14em;
     position: absolute;
     top: 45px;
     right: 0%;
-   
+   /* z-index: 100; */
    }
 .tanners__navbar-menu_container-links li{
     margin: 2rem 0;

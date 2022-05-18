@@ -103,15 +103,15 @@ margin: 5px;
 
 }
 
-.tanners__footer-second_container h2,
-.tanners__footer-third_container h2,
-.tanners__footer-fourth_container h2 {
+.tanners__footer-second_container h2 button,
+.tanners__footer-third_container h2 button,
+.tanners__footer-fourth_container h2 button {
     font-size: 18px;
 }
 
-.tanners__footer-second_container p,
-.tanners__footer-third_container p,
-.tanners__footer-fourth_container p {
+.tanners__footer-second_container p button,
+.tanners__footer-third_container p button,
+.tanners__footer-fourth_container p button {
     font-size: 15px;
 
 }
@@ -147,14 +147,14 @@ margin: 5px;
     text-align: left;
     
 }
-.tanners__footer-second_container h2,
-.tanners__footer-third_container h2,
-.tanners__footer-fourth_container h2 {
+.tanners__footer-second_container h2 button,
+.tanners__footer-third_container h2 button,
+.tanners__footer-fourth_container h2 button {
    font-size: 17px;
     }
-    .tanners__footer-second_container p,
-    .tanners__footer-third_container p,
-    .tanners__footer-fourth_container p {
+    .tanners__footer-second_container p button,
+    .tanners__footer-third_container p button,
+    .tanners__footer-fourth_container p button {
         font-size: 15px;
        
     }

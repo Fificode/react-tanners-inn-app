@@ -93,12 +93,12 @@ letter-spacing: 0.14em;
     padding: 4rem;
     box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
     width: 100vw;
-    height: calc(100vh - 25px);
+    height: 500px;
     text-align: center;
     position: absolute;
     top: 45px;
     right: 0%;
-   /* z-index: 100; */
+   
    }
 .tanners__navbar-menu_container-links li{
     margin: 2rem 0;

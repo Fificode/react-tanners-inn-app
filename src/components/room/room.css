@@ -1,6 +1,6 @@
 .tanners__room{
     margin: 0 20px;
-    max-width: 400px;
+    width: 400px;
 
 }
 .tanners__room-image_container{
@@ -75,8 +75,9 @@ border-radius: 25px;
         margin-right: 10px;
     }
     .tanners__room-description{
-       margin: 10px 8px;
-        
+    margin: 0 auto;
+       width: 390px;
+      
     }
     .tanners__room-description p{
 font-family: var(--font-family);
@@ -85,6 +86,7 @@ font-weight: 400;
 font-size: 18px;
 line-height: 31px;
 letter-spacing: 0.02em;
+margin-top: 10px;
 color: #000000;
     }
     .tanners__room-description h3{
@@ -103,17 +105,23 @@ color: #000000;
         .tanners__room{
             margin: 20px 0;
         }
+        .tanners__room-image {
+            width: 500px;
+            height: 300px;
+        }
         
+        .tanners__room-dark_background {
+            height: 300px;
+        
+        }
+        
+        .tanners__room-description {
+            width: 400px;
+           
+        }
     }
     @media screen and (max-width: 850px){
-.tanners__room-image {
-    width: 350px;
-   }
 
-    .tanners__room-description {
-        max-width: 340px;
-        
-    }
     .tanners__room-numtype h1 {
         margin: 0 0 5px 25px;
        
@@ -170,6 +178,6 @@ color: #000000;
 
 .tanners__room-description {
     width: 270px;
-margin: 0 5px;
+margin-top: 5px;
 }
     }

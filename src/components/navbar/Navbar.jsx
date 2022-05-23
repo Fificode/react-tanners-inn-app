@@ -14,7 +14,7 @@ const Menu = () => (
 
 const Navbar = () => {
   useLayoutEffect(() => {
-    const navbar = document.querySelector('.tanners__navbar-container');
+    const navbar = document.querySelector('.tanners__navbar');
     let scrolled = false;
     window.onscroll = function () {
       if (window.pageYOffset > 100) {

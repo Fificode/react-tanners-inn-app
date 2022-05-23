@@ -1,9 +1,22 @@
 .tanners__navbar{
+    /* background-color: #333;
+   opacity: 0.8; */
+    width: 100%;
+    height: 70px;
+    transition: 0.5s;
+}
+.tanners__navbar-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
+.tanners__navbar.top{
+    background: transparent;
+}
+
 .tanners__navbar-links_logo img{
 width: 51px;
 height: 51px;

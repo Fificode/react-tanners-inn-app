@@ -4,6 +4,9 @@
     align-items: center;
     margin-top: 300px;
 }
+.tanners__about-heading{
+    margin: 0 auto;
+}
 .tanners__about-heading h1{
 font-family: 'Poppins';
 font-weight: 700;
